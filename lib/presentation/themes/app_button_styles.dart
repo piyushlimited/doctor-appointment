@@ -9,5 +9,5 @@ class AppButtonStyles {
               foregroundColor: AppColors.white,
               backgroundColor: AppColors.blue,
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20.0))));
+                  borderRadius: BorderRadius.circular(40.0))));
 }
