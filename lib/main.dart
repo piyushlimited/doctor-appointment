@@ -2,6 +2,7 @@ import 'package:doctor_appointment/presentation/themes/app_theme.dart';
 import 'package:doctor_appointment/routes/app_routes.dart';
 import 'package:doctor_appointment/utils/clear_focus_observer.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 import 'core/network/api_client.dart';
@@ -9,6 +10,8 @@ import 'core/network/connectivity_service.dart';
 import 'data/app_constant.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+      statusBarColor: Colors.white, systemNavigationBarColor: Colors.white));
   runApp(const MyApp());
 }
 

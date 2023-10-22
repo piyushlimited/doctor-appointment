@@ -1,16 +1,26 @@
-# doctor_appointment
+Doctor Appointment App developed to submit an assignment to Ekam for Flutter Developer Role.
 
-Doctor Appointment App developed to submit an assignment to Ekam
+Developer Details ->
 
-## Getting Started
+Name - Piyush Singhal
+Email - piyushsinghal0321@gmail.com
+Github - /piyushlimited
+LinkedIn - /piyushsinghal0321
 
-This project is a starting point for a Flutter application.
+Project Setup Steps ->
 
-A few resources to get you started if this is your first Flutter project:
+- Git Clone
+- Run command flutter pub get
+- Run command flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+References ->
+- intl Package - For Date & Time Formatting
+- dio Package - For Network Library - Better handing & more control on Network Layer rather than using http
+- get Package - State Management Using Github
+- Design Pattern -> MVC Design Pattern
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Prior Requirements before understanding this project ->
+
+- MVC Design Pattern
+- GetX State Management
+- Dio Network Library

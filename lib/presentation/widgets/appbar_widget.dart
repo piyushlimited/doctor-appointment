@@ -19,7 +19,7 @@ class AppBarWidget extends StatelessWidget {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                       border: Border.all(color: Colors.grey),
-                      borderRadius: BorderRadius.circular(100.0)),
+                      borderRadius: BorderRadius.circular(20.0)),
                   child: const Icon(
                     Icons.arrow_back,
                     color: Colors.black,
